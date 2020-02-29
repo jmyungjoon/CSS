@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 700px;
+            border: 1px solid gray;
+
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding: 20px;
+        }
+        footer{
+            border-top: 1px solid gray;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .content{
+            display: flex;
+            font-family: 'Oxanium';
+        }
+        .content nav{
+            border-right: 1px solid gray;
+        }
+        .content aside{
+            border-left: 1px solid gray;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>생활코딩</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+            </nav>
+            <main>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum a suscipit sequi praesentium incidunt tempore itaque laborum aliquam? Doloremque, hic nisi ipsam adipisci eum exercitationem molestias odit? Sint, velit consequatur..
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nostrum deserunt esse id iste, saepe inventore aut magnam incidunt itaque blanditiis temporibus iure, repellat reprehenderit a, accusamus vitae. Odit, possimus.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi pariatur mollitia atque esse corporis quis repellendus rerum dignissimos, ipsa error a maiores, eligendi accusantium, tenetur asperiores modi temporibus distinctio! A.
+            </main>
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://opentutorials.org">홈페이지</a>
+        </footer>
+    </div>
+    
+</body>
+</html>
