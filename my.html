@@ -2,17 +2,29 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/animation.css">
     <style>
         body{
-            font-family: "fontello";
+            /* font-family: "fontello"; */
             color: blue;
             font-size: 100px;
+        }
+        #test:before{
+            content: "s";
+            color: red;
+            font-size: 30px;
+        }
+        #test:after{
+            content: "e";
+        }
+        #git{
+            font-family: "fontello";
         }
     </style>
 </head>
 <body>
-    &#xe843<br>
-    &#xe840
-    <i class="icon-chrome"></i>
+    <div id="test">A</div>
+    <div id="git">&#xe804</div>
+    <i class="icon-chrome animate-spin" ></i>
 </body>
 </html>
